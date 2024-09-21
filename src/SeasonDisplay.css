@@ -1,0 +1,36 @@
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.winter {
+  background-color: aliceblue;
+}
+.summer {
+  background-color: orange;
+}
+.season-display.winter i {
+  color: blue;
+}
+.season-display.summer i {
+  color: red;
+}
+.season-display.summer h1 {
+  color: #fff;
+}
+.left-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.right-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
